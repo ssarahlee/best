@@ -11,7 +11,7 @@ import { Friend } from './friends';
 export class DashboardComponent {
   friends: Friend[] 
 
-  constructor(private breakpointObserver: BreakpointObserver) {
+  constructor() {
     this.friends = [
       { name: "Derek", status: "Teaching children to read", about: "I'm a model", messages: [], rows: 1, cols:1},
       { name: "Hansel", status: "Kitesurfing", about: "I'm a model", messages: [], rows: 1, cols:1 },
