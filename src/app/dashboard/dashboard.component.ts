@@ -9,7 +9,7 @@ import { Friend } from './friends';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-  friends: Friend[] 
+  friends: Friend[]
 
   constructor() {
     this.friends = [
@@ -26,7 +26,7 @@ export class DashboardComponent {
     ];
   }
      
-  }
+}
 
 
 
