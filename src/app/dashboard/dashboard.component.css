@@ -19,3 +19,17 @@
 .dashboard-card-content {
   text-align: center;
 }
+
+#friendsdetail {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #555;
+}
+
+.tab-action {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

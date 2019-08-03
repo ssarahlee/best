@@ -62,6 +62,8 @@ THE SOFTWARE.
 
 @angular/material/button
 
+@angular/material/card
+
 @angular/material/core
 
 @angular/material/grid-list
@@ -71,6 +73,8 @@ THE SOFTWARE.
 @angular/material/list
 
 @angular/material/sidenav
+
+@angular/material/tabs
 
 @angular/material/toolbar
 

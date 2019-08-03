@@ -9,7 +9,8 @@ import { Friend } from './friends';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-  friends: Friend[]
+  friends: Friend[];
+  selectedFriend: Friend;
 
   constructor() {
     this.friends = [
@@ -24,6 +25,10 @@ export class DashboardComponent {
       { name: "EvilDJ", status: "Teaching children to read", about: "I'm a model", messages: [], rows: 1, cols:1},
       { name: "JPPrewit", status: "Teaching children to read", about: "I'm a model", messages: [], rows: 1, cols:1},
     ];
+  }
+
+  showDetails(friend: Friend) {
+    this.selectedFriend = friend;
   }
      
 }
